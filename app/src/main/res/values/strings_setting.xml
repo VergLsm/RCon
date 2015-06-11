@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetoothSettings">蓝牙设置</string>
+    <string name="selectBluetoothDevice">选择蓝牙设备</string>
+    <string name="noTarge">没有目标</string>
+    <string name="pairBTDevice">匹配蓝牙</string>
+    <string name="relaySettings">中继设置</string>
+    <string name="relaySwitch">查询中继</string>
+    <string name="rcSettings">RC设置</string>
+    <string name="rcSwitch">RC发送</string>
+    <string name="intervalTime">间隔时间</string>
+    <string name="intervalTime_dialogTitle">选择要间隔时间(ms)</string>
+    <string name="ms">微秒</string>
+    <string name="on">打开</string>
+    <string name="off">关闭</string>
+
+    <string-array name="intervalTime_array">
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+    </string-array>
+
+</resources>

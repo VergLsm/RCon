@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RCon</string>
+
+    <string name="hello_world">请稍候……</string>
+    <string name="action_exit">退出</string>
+    <string name="bluetooth_settings">蓝牙相关</string>
+    <string name="title_activity_bluetooth_setting">BluetoothSetting</string>
+    <string name="btnScan">Scan</string>
+    <string name="btnSave">Save</string>
+    <string name="tvIntervalTime">发送间隔时间</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="btnL">Left</string>
+    <string name="btnR">Right</string>
+    <string name="empty"></string>
+    <string name="rf">nRF</string>
+    <string name="rc">RC</string>
+    <string name="settings">设置</string>
+</resources>

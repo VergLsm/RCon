@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://F:/Android_Project/BluetoothGo/src/serial/protocol/MSP_CMD.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/serial/protocol/SP.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/Callback.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/GoService.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/MainActivity.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/SettingsActivity.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/Splash.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/bluetoothgo/VerticalProgressBar.java" charset="GBK" />
+    <file url="file://F:/Android_Project/BluetoothGo/src/vis/util/bluetooth/VBT.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

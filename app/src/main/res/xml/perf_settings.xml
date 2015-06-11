@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bluetoothSettings">
+        <ListPreference
+            android:key="@string/selectBluetoothDevice"
+            android:title="@string/selectBluetoothDevice">
+        </ListPreference>
+
+        <Preference android:title="@string/pairBTDevice">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.settings.bluetooth.BluetoothSettings"
+                android:targetPackage="com.android.settings"/>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/relaySettings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/relaySwitch"
+            android:summaryOff="关闭查询"
+            android:summaryOn="打开查询"
+            android:switchTextOff="@string/off"
+            android:switchTextOn="@string/on"
+            android:title="@string/relaySwitch">
+        </SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/rcSettings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/rcSwitch"
+            android:summaryOff="关闭RC发送"
+            android:summaryOn="开启RC发送"
+            android:switchTextOff="@string/off"
+            android:switchTextOn="@string/on"
+            android:title="@string/rcSwitch">
+        </SwitchPreference>
+
+        <ListPreference
+            android:defaultValue="750"
+            android:dialogTitle="@string/intervalTime_dialogTitle"
+            android:entries="@array/intervalTime_array"
+            android:entryValues="@array/intervalTime_array"
+            android:key="@string/intervalTime"
+            android:title="@string/intervalTime">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
