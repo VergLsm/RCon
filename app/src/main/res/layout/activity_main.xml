@@ -21,15 +21,13 @@
         android:layout_toRightOf="@id/tvRF"
         android:text="@string/hello_world"/>
 
-    <Switch
-        android:id="@+id/swCtrl"
+    <android.support.v7.widget.SwitchCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="@string/empty"
-        android:textOff="断开"
-        android:textOn="连接"/>
+        android:id="@+id/swCtrl"
+        android:text="@string/empty" />
 
     <TextView
         android:id="@+id/tvRelay"

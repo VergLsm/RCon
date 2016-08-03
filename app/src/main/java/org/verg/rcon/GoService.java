@@ -129,7 +129,7 @@ public class GoService extends Service {
     /**
      * 注册回调接口的方法，供外部调用
      *
-     * @param onDataChange
+     * @param onDataChangeListener
      */
     public void setOnDataChangeListener(Callback onDataChangeListener) {
         this.dataReturnListener = onDataChangeListener;
